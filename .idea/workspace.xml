@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10d580b6-e1cc-43b9-9c30-eb6a70deda1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browser-state.json" beforeDir="false" afterPath="$PROJECT_DIR$/browser-state.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/playwright_courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright_courses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_courses.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_courses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_courses.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,25 +54,25 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="pytest for test.test_courses.test_empty_courses_list" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for tests.test_courses.test_empty_courses_list" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="autotests-ui" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_courses.test_empty_courses_list&quot;" />
+      <option name="_new_target" value="&quot;tests.test_courses.test_empty_courses_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test.test_courses.test_empty_courses_list" />
+        <item itemvalue="Python tests.pytest for tests.test_courses.test_empty_courses_list" />
       </list>
     </recent_temporary>
   </component>

@@ -42,4 +42,4 @@ def test_empty_courses_list():
         expect(text_1).to_contain_text('There is no results')
 
         text_2 = page.get_by_test_id('courses-list-empty-view-description-text')
-        expect(text_2).to_contain_text("Results from the load test pipeline will be displayed here")
+        expect(text_2).to_contain_text("Results from the load tests pipeline will be displayed here")

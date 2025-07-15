@@ -14,7 +14,7 @@ with sync_playwright() as playwright:
     password_input.fill('password')
     registration_button = page.get_by_test_id('registration-page-registration-button')
     registration_button.click()
-    context.storage_state(path='test/browser-state.json')
+    context.storage_state(path='tests/browser-state.json')
 
 with sync_playwright() as playwright:
     browser = playwright.chromium.launch(headless=False)
@@ -29,7 +29,7 @@ with sync_playwright() as playwright:
     expect(text_1).to_be_visible()
     expect(text_1).to_contain_text('There is no results')
     text_2 = page.get_by_test_id('courses-list-empty-view-description-text')
-    expect(text_2).to_contain_text("Results from the load test pipeline will be displayed here")
+    expect(text_2).to_contain_text("Results from the load tests pipeline will be displayed here")
 =======
 from playwright.sync_api import sync_playwright, expect
 
@@ -46,7 +46,7 @@ with sync_playwright() as playwright:
     password_input.fill('password')
     registration_button = page.get_by_test_id('registration-page-registration-button')
     registration_button.click()
-    context.storage_state(path='test/browser-state.json')
+    context.storage_state(path='tests/browser-state.json')
 
 with sync_playwright() as playwright:
     browser = playwright.chromium.launch(headless=False)
@@ -61,5 +61,5 @@ with sync_playwright() as playwright:
     expect(text_1).to_be_visible()
     expect(text_1).to_contain_text('There is no results')
     text_2 = page.get_by_test_id('courses-list-empty-view-description-text')
-    expect(text_2).to_contain_text("Results from the load test pipeline will be displayed here")
+    expect(text_2).to_contain_text("Results from the load tests pipeline will be displayed here")
 >>>>>>> master
